@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Database (Render uses PostgreSQL, not SQLite)
+db.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Django static output
+staticfiles/
+
+# Media uploads (if user uploads files)
+media/
+
+# IDE
+.vscode/
+.idea/
